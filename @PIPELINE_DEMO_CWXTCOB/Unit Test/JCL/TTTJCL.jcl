@@ -43,10 +43,8 @@ STORAGE(00,00,00)
 *
 EXIT(NONE)
 *
-REPEAT(${totaltest.repeat}),STUBS(${totaltest.usestubs}),
-DEBUG(${totaltest.usedebug})
-*REPEAT(${runtime.repeat}),STUBS(${runtime.usestubs}),
-*DEBUG(${runtime.usedebug})
+REPEAT(${runtime.repeat}),STUBS(${runtime.usestubs}),
+DEBUG(${runtime.usedebug})
 /*
 //BININP DD DSN=${totaltest.bininp},DISP=OLD
 //BINREF DD DSN=${totaltest.binref},DISP=OLD

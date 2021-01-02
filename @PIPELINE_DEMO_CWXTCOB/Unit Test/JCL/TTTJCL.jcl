@@ -1,5 +1,4 @@
-//SJPKTT0A JOB ('#SALESSUP'),'TTTRUNNER',
-//             CLASS=A,MSGCLASS=R,NOTIFY=&SYSUID,REGION=0M
+${TOTALTEST_JOBCARD}
 //*JOBPARM S=*
 //*
 //*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH
@@ -25,12 +24,12 @@
 //*
 //* The skeleton can be modified as needed
 //*
-//STEPLIB DD DISP=SHR,DSN=SYS2.CW.CXR17B.SLCXLOAD
+//STEPLIB DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
+//        DD DISP=SHR,DSN=CEE.SCEERUN
 //        DD DISP=SHR,DSN=SALESSUP.ISPW.DEMJ.UT1.LOAD
 //        DD DISP=SHR,DSN=SALESSUP.ISPW.DEMJ.SI1.LOAD
 //        DD DISP=SHR,DSN=SALESSUP.ISPW.DEMJ.PT.LOAD
 //        DD DISP=SHR,DSN=SALESSUP.ISPW.DEMJ.HON.LOAD
-//        DD DISP=SHR,DSN=CEE.SCEERUN
 //*
 //* The following lines will initialize storage to zeroes to avoid
 //* uninitialized storage assertion miscompares.
@@ -43,15 +42,12 @@ STORAGE(00,00,00)
 *
 EXIT(NONE)
 *
-REPEAT(${runtime.repeat}),STUBS(${runtime.usestubs}),
-DEBUG(${runtime.usedebug})
+REPEAT(${TOTALTEST_REPEAT}),STUBS(${TOTALTEST_STUBS}),
+DEBUG(${TOTALTEST_USEDEBUG})
 /*
-//BININP DD DSN=${totaltest.bininp},DISP=OLD
-//BINREF DD DSN=${totaltest.binref},DISP=OLD
-//BINRES DD DSN=${totaltest.binres},DISP=OLD
-//*BININP DD DSN=${runtime.bininp},DISP=OLD
-//*BINREF DD DSN=${runtime.binref},DISP=OLD
-//*BINRES DD DSN=${runtime.binres},DISP=OLD
+//BININP DD DSN=${TOTALTEST_BININP},DISP=OLD
+//BINREF DD DSN=${TOTALTEST_BINREF},DISP=OLD
+//BINRES DD DSN=${TOTALTEST_BINRES},DISP=OLD
 //*
 //*      Optionally add your custom DD statements
 //*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR

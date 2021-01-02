@@ -1,11 +1,11 @@
-13:46:43.272 INFO      TOPAZ            ***************************************
-13:46:43.273 INFO      TOPAZ            ** Execution from Topaz with options **
-13:46:43.273 INFO      TOPAZ            ***************************************
-13:46:43.273 INFO      TOPAZ            Using repository: true
-13:46:43.273 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
-13:46:43.273 INFO      TOPAZ            ***************************************
-13:46:43.273 INFO      Engine           Test Scenario execution started
-13:46:43.273 INFO      Engine           Using context settings:
+17:01:20.573 INFO      TOPAZ            ***************************************
+17:01:20.573 INFO      TOPAZ            ** Execution from Topaz with options **
+17:01:20.573 INFO      TOPAZ            ***************************************
+17:01:20.573 INFO      TOPAZ            Using repository: true
+17:01:20.573 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+17:01:20.574 INFO      TOPAZ            ***************************************
+17:01:20.574 INFO      Engine           Test Scenario execution started
+17:01:20.574 INFO      Engine           Using context settings:
   Engine Version                : 20.4
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
@@ -20,24 +20,24 @@
   Codepage                      : IBM-1047
   Host user Id                  : SJPKTT0
   Use Repository Server         : false
-13:46:43.274 INFO      Engine           Setting variables from context and context data extensions
-13:46:43.274 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-13:46:43.274 INFO      Engine             id: environmentType    value: BATCH
-13:46:43.274 INFO      Engine             id: userId             value: SJPKTT0
-13:46:43.274 INFO      Engine             id: accountingInfo     value: 
-13:46:43.274 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.UT1.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.UT1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.SI1.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.SI1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.PT.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.PT.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.HON.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.HON.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
-13:46:43.274 INFO      Engine             id: unittest.staticjcl  value: ../JCL/TTTJCL.jcl
-13:46:43.274 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-13:46:43.275 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/git/PIPELINE_DEMO/@PIPELINE_DEMO_CWXTCOB/Unit Test/JCL/TTTJCL.jcl
-13:46:43.510 INFO      Unittest         Using local JCL skeleton to submit JCL
-13:47:02.285 INFO      CWCC Batch       Sending Job execution request to Host 
-13:47:07.627 INFO      CWCC Batch       Job execution completed with status:
+17:01:20.574 INFO      Engine           Setting variables from context and context data extensions
+17:01:20.574 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+17:01:20.574 INFO      Engine             id: environmentType    value: BATCH
+17:01:20.574 INFO      Engine             id: userId             value: SJPKTT0
+17:01:20.574 INFO      Engine             id: accountingInfo     value: 
+17:01:20.574 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.UT1.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.UT1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.SI1.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.SI1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.PT.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.PT.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.ISPW.DEMJ.HON.LOAD, StringDataItem{value=SALESSUP.ISPW.DEMJ.HON.LOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
+17:01:20.575 INFO      Engine             id: unittest.staticjcl  value: ../JCL/TTTRUNNER.jcl
+17:01:20.575 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+17:01:20.575 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/git/PIPELINE_DEMO/@PIPELINE_DEMO_CWXTCOB/Unit Test/JCL/TTTRUNNER.jcl
+17:01:20.802 INFO      Unittest         Using local JCL skeleton to submit JCL
+17:01:42.797 INFO      CWCC Batch       Sending Job execution request to Host 
+17:01:48.136 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job SJPKTT0A(J0975258) ended with return code: 0000
+  Job status msg : Job SJPKTT0A(J0975313) ended with return code: 0000
   Job name       : SJPKTT0A
-  Job id         : J0975258
+  Job id         : J0975313
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-13:47:11.525 INFO      Unittest         Execution completed
-13:47:11.526 INFO      Engine           Test Scenario execution ended
+17:01:54.051 INFO      Unittest         Execution completed
+17:01:54.051 INFO      Engine           Test Scenario execution ended

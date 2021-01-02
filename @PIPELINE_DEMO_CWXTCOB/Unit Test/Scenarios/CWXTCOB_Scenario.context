@@ -9,7 +9,7 @@
       <Value>CEE.SCEERUN</Value>
     </Parameter>
     <Parameter key="unittest.staticjcl">
-      <Value>../JCL/TTTJCL.jcl</Value>
+      <Value>../JCL/TTTRUNNER.jcl</Value>
     </Parameter>
   </ExtensionData>
   <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">

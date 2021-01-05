@@ -114,5 +114,47 @@
       </testcase:stubs>
       <testcase:isNoLinkage>false</testcase:isNoLinkage>
     </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTCOB" encoding="939" entrypoint="CWXTCOB#C" id="Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario%23CWXTCOBCase4" target="CWXTCOB">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SJPKTT0.WBSAMP.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1607818892000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTCOB.interface#Unit%20Test/Interfaces/CWXTCOB.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F5</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F5</properties:property>
+            <properties:property name="address" type="string">37ABB568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition>
+          <checkconditions:expectation></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTCOB_CWXTSUBC_01.stub#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_CWXTDATE_01.stub#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_01.stub#Unit%20Test/Stubs/CWXTCOB_EMPFILE_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTCOB_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTCOB_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTCOB</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
   </testscenario:testcases>
 </testscenario:testscenario>

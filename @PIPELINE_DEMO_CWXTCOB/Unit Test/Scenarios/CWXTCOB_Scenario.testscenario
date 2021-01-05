@@ -23,6 +23,7 @@
       <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
         <checkconditions:simpleCheckcondition>
@@ -86,7 +87,7 @@
       <testcase:ddioMemberName>CWXTCOB</testcase:ddioMemberName>
       <testcase:isNoLinkage>false</testcase:isNoLinkage>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTCOB" encoding="1047" entrypoint="CWXTCOB" id="Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario%23CWXTCOB_RPTFILE_EMP_TOTAL_DTLedit4" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTCOB" encoding="1047" entrypoint="CWXTCOB" id="Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario%23CWXTCOBCase3" target="CWXTCOB">
       <testcase:description></testcase:description>
       <testcase:ddio></testcase:ddio>
       <testcase:ddiotype></testcase:ddiotype>
@@ -99,6 +100,7 @@
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTLedit3.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTLedit3.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTLedit3.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTLedit3.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTLedit3.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTLedit3.listructure"/>
       <testcase:checkconditions>

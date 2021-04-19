@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="939" fileStatus="00" id="SALEJAPN.SC.TEST.PDS/Stubs/CWXTCOB_RPTFILE_FILE_01.stub" stubtype="QSAM" target="RPTFILE" token="170000">
+  <properties:properties>
+    <properties:property name="bufferType" type="string">BA</properties:property>
+  </properties:properties>
+  <stub:description>Created: 2021/03/18 15:22:45</stub:description>
+</stub:stub>

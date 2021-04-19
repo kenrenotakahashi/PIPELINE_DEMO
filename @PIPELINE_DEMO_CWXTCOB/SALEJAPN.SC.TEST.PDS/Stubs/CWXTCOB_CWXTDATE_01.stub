@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="939" id="SALEJAPN.SC.TEST.PDS/Stubs/CWXTCOB_CWXTDATE_01.stub" stubtype="Program" target="CWXTDATE" token="150000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: 2021/03/18 15:20:20</stub:description>
+</stub:stub>
